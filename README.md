@@ -1,2 +1,2 @@
-# Find Your Windows Key Easy
-Find Your Windows Key Easy
+# Find Your Windows Key Eazy
+Find Your Windows Key Eazy
