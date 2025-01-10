@@ -81,10 +81,10 @@ Sub QueryWindowsProductKeys()
     If strWinKey <> "" Then
        'Registry key value
         ProductID = objshell.RegRead(Path & "ProductID")
-        wscript.echo "Product: " & Caption & Version & " (" & OSArchitecture & ")"
+        wscript.echo "Product: " & Caption & " " & Version & " (" & OSArchitecture & ")"
         wscript.echo "ProductID : "  & ProductID 
         wscript.echo "Installation Date: " & NewDate 
-	    ProductData =  "Product: " & Caption  & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
+	    ProductData =  "Product: " & Caption  & " " & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
         WriteData ProductData
         Exit Sub
     End If
@@ -92,10 +92,10 @@ Sub QueryWindowsProductKeys()
     If strWinKey <> "" Then
        'Registry key value
         ProductID = objshell.RegRead(Path & "ProductID")
-        wscript.echo "Product: " & Caption & Version & " (" & OSArchitecture & ")"
+        wscript.echo "Product: " & Caption & " " & Version & " (" & OSArchitecture & ")"
         wscript.echo "ProductID : "  & ProductID 
         wscript.echo "Installation Date: " & NewDate 
-	    ProductData =  "Product: " & Caption  & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
+	    ProductData =  "Product: " & Caption  & " " & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
         WriteData ProductData
         Exit Sub
     End If
@@ -103,10 +103,10 @@ Sub QueryWindowsProductKeys()
     If strWinKey <> "" Then
        'Registry key value
         ProductID = objshell.RegRead(Path & "ProductID")
-        wscript.echo "Product: " & Caption & Version & " (" & OSArchitecture & ")"
+        wscript.echo "Product: " & Caption & " " & Version & " (" & OSArchitecture & ")"
         wscript.echo "ProductID : "  & ProductID 
         wscript.echo "Installation Date: " & NewDate 
-	    ProductData =  "Product: " & Caption  & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
+	    ProductData =  "Product: " & Caption  & " " & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
         WriteData ProductData
         Exit Sub
     End If
@@ -114,10 +114,10 @@ Sub QueryWindowsProductKeys()
     If strWinKey <> "" Then
        'Registry key value
         ProductID = objshell.RegRead(Path & "ProductID")
-        wscript.echo "Product: " & Caption & Version & " (" & OSArchitecture & ")"
+        wscript.echo "Product: " & Caption & " " & Version & " (" & OSArchitecture & ")"
         wscript.echo "ProductID : "  & ProductID 
         wscript.echo "Installation Date: " & NewDate 
-	    ProductData =  "Product: " & Caption  & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
+	    ProductData =  "Product: " & Caption  & " " & Version & " (" & OSArchitecture & ")"  & vbNewLine & "ProductID : "  & ProductID & vbNewLine & "Installation Date: " &  NewDate  & vbNewLine & "Installed Key: " &  strWinKey
         WriteData ProductData
         Exit Sub
     End If
