@@ -1,2 +1,2 @@
-# Find Your Windows Key Easy
-Find Your Windows Key Easy
+# All Windows Keys Finder
+All Windows Keys Finder
