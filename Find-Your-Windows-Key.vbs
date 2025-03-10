@@ -32,7 +32,7 @@ Function DecodeProductKey(arrKey, intKeyOffset)
   If Not IsArray(arrKey) Then Exit Function
     'Check if OS is Windows 8
     intIsWin8 = BitShiftRight(arrKey(intKeyOffset + 14), 3) And 1 
-    arrKey(intKeyOffset + 14) = (arrKey(intKeyOffset + 14) And & HF7) Or BitShiftLeft(intIsWin8 And 2,2)
+    arrKey(intKeyOffset + 14) = (arrKey(intKeyOffset + 14) And &HF7) Or BitShiftLeft(intIsWin8 And 2,2)
     i = 24
     strChars = "BCDFGHJKMPQRTVWXY2346789"
     'strKeyOutput = ""
